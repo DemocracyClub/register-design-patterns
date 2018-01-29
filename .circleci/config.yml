@@ -1,14 +1,17 @@
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/ruby:2.4.1-node-browsers
+
 version: 2
 jobs:
   build:
-    docker:
-      # specify the version you desire here
-       - image: circleci/ruby:2.4.1-node-browsers
-
-    working_directory: ~/repo
-
+    <<: *defaults
     steps:
       - checkout
+      - attach_workspace:
+          at: ~/repo
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -25,25 +28,43 @@ jobs:
           paths:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-
-
+      - persist_to_workspace:
+          root: .
+          paths: vendor/bundle
 
   test:
-    docker:
-      - image: circleci/ruby:2.4.1-node-browsers
+    <<: *defaults
     steps:
       - checkout
-      # run tests!
+      - attach_workspace:
+          at: ~/repo
+      - run: bundle --path vendor/bundle
+      - run:
+          name: install pandoc
+          command: |
+            sudo apt-get install pandoc
       - run:
           name: run tests
           command: |
             bundle exec jekyll build
             bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
+
   deploy:
-    docker:
-      - image: circleci/ruby:2.4.1-node-browsers
+    <<: *defaults
     steps:
       - checkout
+      - attach_workspace:
+          at: ~/repo
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+      - run: bundle --path vendor/bundle
+      - run:
+          name: install pandoc
+          command: |
+            sudo apt-get install pandoc
       - run: ./bin/deploy
 
 workflows:
