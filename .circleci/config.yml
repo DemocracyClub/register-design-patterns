@@ -1,23 +1,60 @@
-machine:
-  environment:
-    USER_NAME: symroe
-    USER_EMAIL: sym.roe@talusdesign.co.uk
-  ruby:
-    version: 2.4.1
-  node:
-    version: 8.2.1
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+       - image: circleci/ruby:2.4.1-node-browsers
 
-dependencies:
-  pre:
-    - ./bin/setup
+    working_directory: ~/repo
 
-test:
-  post:
-    - bundle exec jekyll build
-    - bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
 
-deployment:
-  production:
-    branch: master
-    commands:
-    - ./bin/deploy
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+
+
+  test:
+    docker:
+      - image: circleci/ruby:2.4.1-node-browsers
+    steps:
+      - checkout
+      # run tests!
+      - run:
+          name: run tests
+          command: |
+            bundle exec jekyll build
+            bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
+  deploy:
+    docker:
+      - image: circleci/ruby:2.4.1-node-browsers
+    steps:
+      - checkout
+      - run: ./bin/deploy
+
+workflows:
+  version: 2
+  build-test-and-deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
+
