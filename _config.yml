@@ -25,9 +25,6 @@ plugins:
   - jekyll-assets
   - jekyll-sitemap
 
-name: foo
-
-
 pandoc:
     skip: false
     full_file: true
@@ -46,7 +43,7 @@ pandoc:
 
 permalink: pretty
 
-url: "https://foo.com"
+# url: "https://foo.com"
 
 title: Register design patters
 description: Primer is a Jekyll theme for GitHub Pages
