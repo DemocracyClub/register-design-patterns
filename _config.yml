@@ -39,7 +39,7 @@ pandoc:
     # covers_dir: assets/covers
     signature: 20
 
-    flags: '-f markdown+smart+pipe_tables+footnotes'
+    flags: '-f markdown+smart+pipe_tables+footnotes+autolink_bare_uris'
     site_flags: '--toc'
     outputs:
       epub: '--epub-chapter-level=2'
