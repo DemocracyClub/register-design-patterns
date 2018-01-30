@@ -16,7 +16,7 @@ It follows a report about collaborative registers written for [The ODI][odi] by 
 In the report we tried to enumerate interesting properties of registers. We defined a list of terms that could be applied to any
 
 {% for item in site.list_properties %}
-<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+<h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
 {% endfor %}
 
 
