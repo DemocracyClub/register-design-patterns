@@ -1,3 +1,5 @@
+baseurl: '/register-design-patterns'
+
 assets:
   plugins:
     css: { autoprefixer: {}}
