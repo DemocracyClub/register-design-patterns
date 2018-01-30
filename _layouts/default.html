@@ -10,8 +10,13 @@
 
       {{ content }}
 
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source..
+      <div class="footer border-top border-gray-light mt-6 pt-5 text-right text-gray">
+        <p>This site is open source and operates on a
+                <a href="{{ site.baseurl }}{% link _governance_patterns/suggested_edits.md %}">
+                  suggested edit governance model</a>. </p>
+
+          <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/{{page.path}}">
+            Edit this page on GitHub</a></p>
       </div>
     </div>
 
