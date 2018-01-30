@@ -56,3 +56,13 @@ markdown: pandoc
 collections:
   list_properties:
     output: true
+  governance_patterns:
+    output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: governance_patterns
+    values:
+      item_name: "Governance pattern"
