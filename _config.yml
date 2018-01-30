@@ -52,3 +52,7 @@ title: Register design patters
 description: Primer is a Jekyll theme for GitHub Pages
 
 markdown: pandoc
+
+collections:
+  list_properties:
+    output: true
