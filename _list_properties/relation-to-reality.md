@@ -1,6 +1,7 @@
 ---
 title: "Relation to reality"
 layout: default
+short_desc: "By being on the register of children in class 1B, a child becomes a member of class 1B."
 
 ---
 

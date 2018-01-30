@@ -14,6 +14,14 @@ It follows a report about collaborative registers written for [The ODI][odi] by 
 ## Properties of lists
 
 In the report we tried to enumerate interesting properties of registers. We defined a list of terms that could be applied to any
+<ul>
+    {% for item in site.list_properties %}
+    <li>
+        <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+        <p>{{ item.short_desc }}</p>
+    </li>
+    {% endfor %}
+</ul>
 
 ## Governance patterns
 

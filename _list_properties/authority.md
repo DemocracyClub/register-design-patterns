@@ -1,6 +1,7 @@
 ---
 title: "Authority"
 layout: default
+short_desc: "How completeness and accuracy can be asserted"
 
 ---
 
