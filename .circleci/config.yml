@@ -46,7 +46,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            bundle exec jekyll build
+            bundle exec jekyll build --baseurl ''
             bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
 
   deploy:
