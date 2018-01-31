@@ -11,6 +11,12 @@ The term list is used to mean a list of _things_ that is kept for some reason. I
 
 It follows a report about collaborative registers written for [The ODI][odi] by [Open Health Care][ohc] and [Democracy Club][dc].
 
+## Designing a data page
+
+One of the main report findings is that explaining the type and governance of a list is important, as well as explaining the collaboration type.
+
+We've made a [list of questions that we think should be answered]({{ site.baseurl }}/data-page-design) when explaining lists.
+
 ## Properties of lists
 
 In the report we tried to enumerate interesting properties of registers. We defined a list of terms that could be applied to any
