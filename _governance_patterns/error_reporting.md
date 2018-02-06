@@ -5,7 +5,7 @@ short_desc: "Anyone can report and error to a person, organisation or through a 
 ---
 
 
-# Error reporting
+
 This is the simplest form of collaboration, where anyone can report and error to a person, organisation or through a process. Error repointing works for all forms of governance.
 
 For example, the list of "listed" buildings in the UK maintained by Historic England published [guidance on reporting "minor amendments"][minor_amendments]:

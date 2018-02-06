@@ -5,8 +5,6 @@ short_desc: "A list may be entirely accurate or have some known errors, or have 
 
 ---
 
-# Accuracy
-
 A list may be entirely accurate or have some known errors, or have some elements where the provenance and accuracy are unknown.
 
 For instance we would expect a list of numbers between 1 and 100 to be entirely accurate - because it would be trivial to ensure.

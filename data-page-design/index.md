@@ -5,8 +5,6 @@ layout: default
 ---
 
 
-# Designing a data page
-
 When designing a page that explains a list we think it's important to answer the following questions. Each question relates to other questions, but it's useful to think about writing an explanation that can answer them all:
 
 ## What sort of things can I use it for?

@@ -3,33 +3,72 @@
 {% include head.html %}
 <body>
 
-<div class="container-md px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-      {% endif %}
-
-      {{ content }}
-
-      <div class="footer border-top border-gray-light mt-6 pt-5 text-right text-gray">
-        <p>This site is open source and operates on a
-                <a href="{{ site.baseurl }}{% link _governance_patterns/suggested_edits.md %}">
-                  suggested edit governance model</a>. </p>
-
-          <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/{{page.path}}">
-            Edit this page on GitHub</a></p>
-      </div>
+<main>
+    <header class="{% if site.title and site.title != page.title %}large_banner{% endif %}">
+        <nav role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="{{ "/" | absolute_url }}" class="brand-logo">{{ site.title }}</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/list_properties">Properties of lists</a></li>
+                    <li><a href="{{ site.baseurl }}/governance_patterns">Governance patterns</a></li>
+                </ul>
+            </div>
+        </nav>
+        {% if site.title and site.title != page.title %}
+        <div class="container">
+            <h1 class="header ">
+                {{page.title}}
+            </h1>
+        </div>
+        {% endif %}
+        <div class="large_banner_footer">
+            <div class="container">
+                <h2 class="header ">
+                    {% if page.item_name %}
+                    <a href="{{ site.baseurl }}/{{page.collection}}">{{ page.item_name }}</a>
+                    {% endif %}
+                </h2>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {{ content }}
+            </div>
+        </div>
     </div>
+</main>
 
-    {% if site.google_analytics %}
-    <script type="text/javascript">
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
+
+<footer>
+    <div class="container">
+        <p>Made by <a href="http://openhealthcare.org.uk/">Open Health Care</a>
+            and <a href="https://democracyclub.org.uk">Democracy Club</a>
+            for <a href="https://theodi.org/">The ODI</a>
+        </p>
+        <p>This site is open source and operates on a
+        <a href="{{ site.baseurl }}{% link _governance_patterns/suggested_edits.md %}">
+        suggested edit governance model</a>. </p>
+
+        <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/{{page.path}}">
+        Edit this page on GitHub</a></p>
+    </div>
+</footer>
+
+
+
+{% if site.google_analytics %}
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{% endif %}
 </body>
 
 </html>

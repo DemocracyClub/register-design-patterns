@@ -5,7 +5,7 @@ short_desc: "How completeness and accuracy can be asserted"
 
 ---
 
-# Source of authority
+
 When we talk about lists which are complete and accurate (or even lists which are complete and accurate enough to use) we also talk about how we are able to make that assertion. There are various sources of that authority:
 
 ## A priori

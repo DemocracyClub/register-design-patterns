@@ -1,2 +1,88 @@
 
-@import "jekyll-theme-primer";
+
+// Colours
+$colour_text_on_main: #FFF;
+$colour_text_on_main_light: #000;
+$colour_main: #795548;
+$colour_main_light: #D7CCC8;
+$colour_main_dark: #5D4037;
+$colour_contrast: #FF5722;
+$colour_contrast_light: #ff7961;
+$colour_contrast_dark: #212121;
+
+$primary-color: $colour_main;
+
+@import "materialize";
+
+a {
+  color: $colour_contrast;
+}
+
+h3 {
+  font-size:2em;
+}
+
+.large_banner {
+  background-color:$colour_main;
+  height:300px;
+  position:relative;
+  width:100%;
+  color: $colour_text_on_main;
+  h1 {
+    padding-top:0.5em;
+    font-size:3em;
+    @extend .flow-text;
+  }
+  nav {
+      background-color:$colour_main;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      a {
+        color: $colour_text_on_main;
+      }
+  }
+  .large_banner_footer {
+    background-color:$colour_main_light;
+    color:$colour_text_on_main_light;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    h2 {
+      font-size:1.5em;
+      a {
+        color: $colour_main_dark;
+      }
+    }
+  }
+}
+
+main > .container {
+  margin-top:2em;
+
+  p {
+    font-size:1.1em;
+  }
+
+  .col > p:first-child {
+    @extend .flow-text;
+  }
+}
+
+footer {
+  background-color:$colour_main;
+  height:200px;
+  color: $colour_text_on_main;
+  padding-top:0.5em;
+  margin-top:5em;
+  a {
+    color:$colour_contrast_dark;
+  }
+}
+
+@media #{$medium-and-down} {
+    nav .brand-logo {
+      font-size:1em;
+      left:0;
+      transform: none;
+    }
+}

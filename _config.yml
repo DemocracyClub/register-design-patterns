@@ -29,7 +29,7 @@ plugins:
   - jekyll-sitemap
 
 pandoc:
-    skip: false
+    skip: true
     full_file: true
     bundle_permalink: ':slug.:output_ext'
     papersize: 'a5paper'
@@ -56,11 +56,18 @@ markdown: pandoc
 collections:
   list_properties:
     output: true
+    permalink: /:collection/:name
   governance_patterns:
     output: true
+    permalink: /:collection/:name
 
 
 defaults:
+  - scope:
+      path: ""
+      type: list_properties
+    values:
+      item_name: "List property"
   - scope:
       path: ""
       type: governance_patterns

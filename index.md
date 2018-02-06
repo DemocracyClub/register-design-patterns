@@ -3,64 +3,19 @@ title: "Register design patterns"
 layout: default
 
 ---
-# Intro to design patterns
 
-This site is designed to list types of "list" and patterns for maintaining them.
+A register is a list of something important enough that lots of people care about having an accurate, complete list of it. For us to think of a list as a register, some institution must have promised to keep it up to date. Registers are only useful when we trust them. This means that we need a reason to trust the process of keeping the list up to date, ideally because the decision making process is clear and transparent.
 
-The term list is used to mean a list of _things_ that is kept for some reason. It's an intentionally vague term, partly because there isn't a single term that can describe everything we want to and partly because "database", "register", "code list" and other terms all have specific meanings to some people.
+Digital Registers are important because they reduce the cost of services that require data to operate, as well as reducing the burden on institutions required to manage data.
 
-It follows a report about collaborative registers written for [The ODI][odi] by [Open Health Care][ohc] and [Democracy Club][dc].
+This transition has the potential to unlock spaces for new products and services which have previously been too expensive or too risky to survive.
 
-## Designing a data page
+We argue that all non-trivial examples of registers employ some degree of collaboration, and that their quality and usefulness increases the more they embrace that collaboration.
 
-One of the main report findings is that explaining the type and governance of a list is important, as well as explaining the collaboration type.
+Modern technology has given us tools we can use to make that process faster, cheaper and more accessible, and we should take advantage of that opportunity to drive the quality of our data infrastructure up, at reduced cost.
 
-We've made a [list of questions that we think should be answered]({{ site.baseurl }}/data-page-design) when explaining lists.
-
-## Properties of lists
-
-In the report we tried to enumerate interesting properties of registers. We defined a list of terms that could be applied to any
-<ul>
-    {% for item in site.list_properties %}
-    <li>
-        <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
-        <p>{{ item.short_desc }}</p>
-    </li>
-    {% endfor %}
-</ul>
-
-## Governance patterns
-
-Understanding governance systems is critical to the trustworthiness of a list, yet they are often not explained well.
-
-For instance, registers that have a strong authority ([Foreign and Commonwealth Office’s register of countries recognised by the UK](https://country.register.gov.uk/)) have an obfuscated governance model. The custodian is named, but how that person makes decisions about the register is unknown.
-
-Particularly for lists which are designed as data infrastructure (called 'registers' in the UK government context) due to the social, environmental or economic value of their contents, explaining the governance process should be considered a minimum requirement.
-
-Similarly those processes must be both transparent and open.
-
-It's possible that organisational boundaries or systems aren't a helpful way to think about governance or collaboration with others.
-
-For example, a list of shops maintained by a company could be wrong because the team who publishes the list doesn't talk to the  team in charge of opening and closing new stores. If each store manager can set their own opening times then it's unlikely any one person within the organisation will be able to confidently publish a list of all the opening times.
-
-We have tried to define a set of patterns that we think are worth considering when creating or maintaining lists.
-
-
-<ul>
-{% for item in site.governance_patterns %}
-<li>
-    <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
-    <p>{{ item.short_desc }}</p>
-</li>
-{% endfor %}
-</ul>
+Read more about the <a href="{{ site.baseurl }}/list_properties">properties of lists</a> and the <a href="{{ site.baseurl }}/governance_patterns">governance patterns</a> for them.
 
 
 
-
-
-
-[odi]: https://theodi.org/
-[ohc]: http://openhealthcare.org.uk/
-[dc]: https://democracyclub.org.uk
 

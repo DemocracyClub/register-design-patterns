@@ -4,7 +4,6 @@ layout: default
 short_desc: "3rd parties can change a register that they have no governance over"
 ---
 
-# External changes
 
 In some cases 3rd parties can change a register that they have no governance over.
 
