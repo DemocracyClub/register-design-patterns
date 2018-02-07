@@ -13,17 +13,17 @@ register allows people considering using the register to make informed
 decisions about how much they can rely on it.
 
 
-<ul>
-    {% for item in site.governance_patterns %}
-    {% if item.url != "/governance_patterns/index.html" %}
-    <li>
-        <h3>
-            <a href="{{ site.baseurl }}{{ item.url }}">
-                {{ item.title }}
-            </a>
-        </h3>
-        <p>{{ item.short_desc }}</p>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+{% for item in site.governance_patterns %}
+{% if item.url != "/governance_patterns/index.html" %}
+<div class="card">
+<h3 class="card-header">
+<a href="{{ site.baseurl }}{{ item.url }}">
+{{ item.title }}
+</a>
+</h3>
+<div class="card-body">
+<p>{{ item.short_desc }}</p>
+</div>
+</div>
+{% endif %}
+{% endfor %}

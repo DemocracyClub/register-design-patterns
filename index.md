@@ -1,7 +1,7 @@
 ---
 title: "Register design patterns"
 layout: default
-
+category: "1. Introduction"
 ---
 
 A register is a list of something important enough that lots of people care about having an accurate, complete list of it. For us to think of a list as a register, some institution must have promised to keep it up to date. Registers are only useful when we trust them. This means that we need a reason to trust the process of keeping the list up to date, ideally because the decision making process is clear and transparent.
@@ -15,7 +15,3 @@ We argue that all non-trivial examples of registers employ some degree of collab
 Modern technology has given us tools we can use to make that process faster, cheaper and more accessible, and we should take advantage of that opportunity to drive the quality of our data infrastructure up, at reduced cost.
 
 Read more about the <a href="{{ site.baseurl }}/list_properties">properties of lists</a> and the <a href="{{ site.baseurl }}/governance_patterns">governance patterns</a> for them.
-
-
-
-

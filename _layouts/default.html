@@ -4,26 +4,27 @@
 <body>
 
 <main>
-    <header class="{% if site.title and site.title != page.title %}large_banner{% endif %}">
-        <nav role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="{{ "/" | absolute_url }}" class="brand-logo">{{ site.title }}</a>
-                <ul class="right hide-on-med-and-down">
+    <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
+        <div class="container grid-md">
+            <h1><a id="" href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+            <nav>
+                <ul>
                     <li><a href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/designing-a-register">Designing a register</a></li>
                     <li><a href="{{ site.baseurl }}/list_properties">Properties of lists</a></li>
                     <li><a href="{{ site.baseurl }}/governance_patterns">Governance patterns</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
         {% if site.title and site.title != page.title %}
-        <div class="container">
-            <h1 class="header ">
+        <div class="container grid-md">
+            <h1 class="header">
                 {{page.title}}
             </h1>
         </div>
         {% endif %}
         <div class="large_banner_footer">
-            <div class="container">
+            <div class="container grid-md">
                 <h2 class="header ">
                     {% if page.item_name %}
                     <a href="{{ site.baseurl }}/{{page.collection}}">{{ page.item_name }}</a>
@@ -32,7 +33,7 @@
             </div>
         </div>
     </header>
-    <div class="container">
+    <div class="container grid-md">
         <div class="row">
             <div class="col">
                 {{ content }}
@@ -43,7 +44,7 @@
 
 
 <footer>
-    <div class="container">
+    <div class="container  grid-md">
         <p>Made by <a href="http://openhealthcare.org.uk/">Open Health Care</a>
             and <a href="https://democracyclub.org.uk">Democracy Club</a>
             for <a href="https://theodi.org/">The ODI</a>
@@ -69,6 +70,7 @@
   ga('send', 'pageview');
 </script>
 {% endif %}
+
 </body>
 
 </html>

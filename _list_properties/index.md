@@ -10,17 +10,18 @@ These categories should be considered as having soft, porous edges, and have bee
 Due to the scope of this work, we have not attempted to create an academically rigorous and extensively validated framework for list categorisation, although we would welcome such work were it conducted and widely disseminated.
 
 
-<ul>
-    {% for item in site.list_properties %}
-    {% if item.url != "/list_properties/index.html" %}
-    <li>
-        <h3>
-            <a href="{{ site.baseurl }}{{ item.url }}">
-                {{ item.title }}
-            </a>
-        </h3>
-        <p>{{ item.short_desc }}</p>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+{% for item in site.list_properties %}
+{% if item.url != "/list_properties/index.html" %}
+<div class="card">
+<h3 class="card-header">
+<a href="{{ site.baseurl }}{{ item.url }}">
+<a href="{{ site.baseurl }}{{ item.url }}">
+{{ item.title }}
+</a>
+</h3>
+<div class="card-body">
+<p>{{ item.short_desc }}</p>
+</div>
+</div>
+{% endif %}
+{% endfor %}

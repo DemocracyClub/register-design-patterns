@@ -12,7 +12,7 @@ $colour_contrast_dark: #212121;
 
 $primary-color: $colour_main;
 
-@import "materialize";
+@import "spectre";
 
 a {
   color: $colour_contrast;
@@ -22,31 +22,64 @@ h3 {
   font-size:2em;
 }
 
-.large_banner {
-  background-color:$colour_main;
-  height:300px;
-  position:relative;
-  width:100%;
-  color: $colour_text_on_main;
-  h1 {
-    padding-top:0.5em;
-    font-size:3em;
-    @extend .flow-text;
-  }
-  nav {
-      background-color:$colour_main;
-      -webkit-box-shadow:none;
-      box-shadow:none;
-      a {
-        color: $colour_text_on_main;
+main {
+  > header {
+    background-color:$colour_main;
+    height:auto;
+    position:relative;
+    width:100%;
+    color: $colour_text_on_main;
+    a {
+      color: $colour_text_on_main;
+    }
+    h1.header {
+      margin-top:1em;
+    }
+    nav {
+      margin-bottom:1em;
+      ul {
+        display:flex;
+        flex-wrap: wrap; /* 2 */
+        margin: -0.5em; /* 5 (edit me!) */
+        padding:0;
+        list-style-type:none;
+
+        @media (max-width:35em){
+          display:block;
+        }
+
+        & a:first-child, & li:first-child {
+          margin-left:0;
+        }
+        li {
+          flex: 1 0 5em; /* 3 (edit me!) */
+          margin: 0.5em; /* 4 (edit me!) */
+          @media (max-width:35em){
+            display:block;
+          }
+          a {
+            display:inline-block;
+            width:100%;
+
+          }
+          display:inline-block;
+          padding:0.2em;
+          &:hover {
+            background-color:$colour_main_light;
+          }
+          @media (max-width:35em){
+            margin:0;
+            padding:0.1em;
+          }
+        }
       }
+    }
   }
+}
   .large_banner_footer {
     background-color:$colour_main_light;
     color:$colour_text_on_main_light;
     width:100%;
-    position:absolute;
-    bottom:0;
     h2 {
       font-size:1.5em;
       a {
@@ -54,8 +87,7 @@ h3 {
       }
     }
   }
-}
-
+//
 main > .container {
   margin-top:2em;
 
@@ -64,9 +96,24 @@ main > .container {
   }
 
   .col > p:first-child {
-    @extend .flow-text;
+    font-size:1.4em;
+  }
+  .card-panel {
+    font-size:1.2em;
+
+    h3 {
+      font-size:1.3em;
+    }
+  }
+  .card {
+    margin:1em 0;
+  }
+  li {
+    list-style:outside;
+    margin-left:1em;
   }
 }
+
 
 footer {
   background-color:$colour_main;
@@ -78,11 +125,11 @@ footer {
     color:$colour_contrast_dark;
   }
 }
-
-@media #{$medium-and-down} {
-    nav .brand-logo {
-      font-size:1em;
-      left:0;
-      transform: none;
-    }
-}
+//
+////@media #{$medium-and-down} {
+////    nav .brand-logo {
+////      font-size:1em;
+////      left:0;
+////      transform: none;
+////    }
+////}
