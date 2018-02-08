@@ -5,9 +5,10 @@
 
 <main>
     <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
-        <div class="container grid-md">
-            <h1><a id="" href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        <div class="container">
+            <h1 id="page-title"><a id="" href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
             <nav>
+                <button class="menu">Menu</button>
                 <ul>
                     <li><a href="{{ site.baseurl }}/">Home</a></li>
                     <li><a href="{{ site.baseurl }}/guides">Designing a register</a></li>
@@ -71,6 +72,55 @@
 </script>
 {% endif %}
 
+<script>
+    var menu_button = document.querySelectorAll('header .menu')[0];
+    var menu = document.querySelectorAll('header nav ul')[0];
+
+    var isMenuActive = false;
+
+    function ToggleClass(el, className) {
+        if (el.classList) {
+          el.classList.toggle(className);
+        } else {
+            var classes = el.className.split(' ');
+            var existingIndex = -1;
+            for (var i = classes.length; i--;) {
+              if (classes[i] === className)
+                existingIndex = i;
+            }
+
+            if (existingIndex >= 0)
+              classes.splice(existingIndex, 1);
+            else
+              classes.push(className);
+
+          el.className = classes.join(' ');
+        }
+    }
+
+    function addEventListener(el, eventName, handler) {
+      if (el.addEventListener) {
+        el.addEventListener(eventName, handler);
+      } else {
+        el.attachEvent('on' + eventName, function(){
+          handler.call(el);
+        });
+      }
+    }
+
+    function toggle_menu(e) {
+        console.debug('called')
+        ToggleClass(menu, 'menu-open')
+    }
+
+
+    addEventListener(menu_button, 'click', toggle_menu);
+
+
+
+
+
+</script>
 </body>
 
 </html>

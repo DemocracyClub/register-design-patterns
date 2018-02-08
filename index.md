@@ -1,5 +1,5 @@
 ---
-title: "Register design patterns"
+title: "Register design guide"
 layout: default
 category: "1. Introduction"
 ---

@@ -5,6 +5,12 @@ assets:
     css: { autoprefixer: {}}
     img: { optim: {}}
   source_maps: false
+  compression: true
+  caching:
+    path: ".jekyll-cache/assets"
+    type: file # Possible values: memory, file
+    enabled: true
+    gzip: true
   sources:
     - _assets/javascripts
     - _assets/stylesheets
