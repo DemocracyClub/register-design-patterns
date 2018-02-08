@@ -1,5 +1,6 @@
 ---
 title: Why do we need registers?
+number: 2
 layout: default
 ---
 By treating lists as infrastructure we continue to have all of the advantages
