@@ -7,6 +7,10 @@ RED='\033[0;31m'
 # Exit if any subcommand fails.
 set -e
 
+# First, checkout master and push
+git checkout master
+git push origin master
+
 # Check if any changes are uncommited.
 if ! git diff-files --quiet --ignore-submodules --
 then
