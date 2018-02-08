@@ -32,12 +32,12 @@ main {
     a {
       color: $colour_text_on_main;
     }
-    h1#page-title {
+    h2#page-title {
       max-width:50%;
       float:left;
     }
     @media (max-width:60em){
-      h1#page-title {
+      h2#page-title {
         max-width:100%;
         font-size:1.9em;
         text-align:center;
