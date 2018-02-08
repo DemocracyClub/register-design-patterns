@@ -1,0 +1,4 @@
+./_governance_patterns/pay-to-play.md: TODO 
+./_governance_patterns/suggested_edits.md: TODO who does this well? 
+./_guides/best-practices-for-publishing.md: TODO Get links on data publishing from ODI 
+./_guides/decide-on-fields.md: TODO write "Decide on fields" page 

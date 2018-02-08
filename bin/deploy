@@ -30,6 +30,7 @@ git checkout -b gh-pages
 
 # Build site.
 yarn install --modules-folder ./_assets/yarn
+grep -R "TODO" . --exclude todo_list.md --exclude  _includes/todo_list.txt --exclude-dir ./bin --exclude-dir ./_assets  --exclude-dir _site  | sed 's/<\!--//g' | sed 's/-->//g' > _includes/todo_list.txt
 bundle exec jekyll build
 
 # Delete and move files.
