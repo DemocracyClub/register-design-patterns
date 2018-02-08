@@ -15,5 +15,5 @@ This means that we need a reason to trust the process of keeping the list up
 to date, ideally because the decision making process is clear and transparent.
 
 
-[accurate]: {% link _list_properties/accuracy.md %}
-[complete]: {% link _list_properties/completeness.md %}
+[accurate]: {{ site.baseurl }}{% link _list_properties/accuracy.md %}
+[complete]: {{ site.baseurl }}{% link _list_properties/completeness.md %}

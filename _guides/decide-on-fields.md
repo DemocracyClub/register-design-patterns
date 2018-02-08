@@ -37,5 +37,5 @@ Just because you can't promise a fields accuracy doesn't mean you shouldn't incl
 It might be better to split the register in to two at this stage: one that only contains fields you can make a promise about and one with additional fields that contains warnings.
 
 
-[governance_pattern]: {% link _governance_patterns/index.md %}
-[user_needs]: {% link _guides/user-needs-for-data.md %}
+[governance_pattern]: {{ site.baseurl }}{% link _governance_patterns/index.md %}
+[user_needs]: {{ site.baseurl }}{% link _guides/user-needs-for-data.md %}
