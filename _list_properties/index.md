@@ -15,7 +15,6 @@ Due to the scope of this work, we have not attempted to create an academically r
 <div class="card">
 <h3 class="card-header">
 <a href="{{ site.baseurl }}{{ item.url }}">
-<a href="{{ site.baseurl }}{{ item.url }}">
 {{ item.title }}
 </a>
 </h3>
