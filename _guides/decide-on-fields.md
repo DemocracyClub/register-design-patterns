@@ -10,6 +10,18 @@ Fields have names, and store information of a particular type. For example a “
 
 It's important to think hard about the fields in a register. Start by asking the following questions:
 
+### What are the user needs for each field?
+
+Think about [user needs][user_needs] for each field as well as the register itself.
+
+### Is there a standard that can be used to represent the data?
+
+Start with simple standards like [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) for dates or [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) for countries. Using standards here will made your register easier for people to use.
+
+### Should this field actually link to another register?
+
+If the data in the field is contained in another register then consider linking to that register rather than duplicating it. This is especially true if you don't know the origin of the data.
+
 ### What is the origin of the data in each field?
 
 Depending on the [governance pattern][governance_pattern] you might not know when all the fields change.
@@ -26,3 +38,4 @@ It might be better to split the register in to two at this stage: one that only 
 
 
 [governance_pattern]: {% link _governance_patterns/index.md %}
+[user_needs]: {% link _guides/user-needs-for-data.md %}
