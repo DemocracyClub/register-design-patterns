@@ -47,7 +47,7 @@ permalink: pretty
 
 # url: "https://foo.com"
 
-title: Register design patterns
+title: Register design guide
 description: Primer is a Jekyll theme for GitHub Pages
 
 markdown: pandoc
@@ -57,6 +57,9 @@ collections:
     output: true
     permalink: /:collection/:name
   governance_patterns:
+    output: true
+    permalink: /:collection/:name
+  guides:
     output: true
     permalink: /:collection/:name
 
@@ -72,3 +75,8 @@ defaults:
       type: governance_patterns
     values:
       item_name: "Governance pattern"
+  - scope:
+      path: ""
+      type: guides
+    values:
+      item_name: "Design guide"
