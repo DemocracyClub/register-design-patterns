@@ -13,6 +13,6 @@ gem "sass"
 gem "sprockets", "4.0.0.beta6"
 gem "uglifier"
 group :jekyll_plugins do
-  # gem 'jekyll-pandoc-multiple-formats', github: 'seykron/jekyll-pandoc-multiple-formats', branch: 'collections-support'
-  gem "jekyll-pandoc-multiple-formats", :path => "/Users/symroe/Projects/jekyll-pandoc-multiple-formats"
+    gem 'jekyll-pandoc-multiple-formats', github: 'edsl/jekyll-pandoc-multiple-formats', branch: 'develop'
+    # gem "jekyll-pandoc-multiple-formats", :path => "/Users/symroe/Projects/jekyll-pandoc-multiple-formats"
 end
