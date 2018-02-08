@@ -1,5 +1,7 @@
-PATH
-  remote: /Users/symroe/Projects/jekyll-pandoc-multiple-formats
+GIT
+  remote: git://github.com/edsl/jekyll-pandoc-multiple-formats.git
+  revision: 73f7e504f65c30dd43337749b1c9ff82c1458ef7
+  branch: develop
   specs:
     jekyll-pandoc-multiple-formats (0.2.9.2)
       jekyll (~> 3.6.0)
