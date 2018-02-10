@@ -1,7 +1,7 @@
 ---
 title: Decide on identifiers
 number: 5
-layout: default
+layout: post
 ---
 
 Sometimes a list of things might contain an identifier for other identifiable things. For example, a list of schools might contain a local authority that manages that school.
