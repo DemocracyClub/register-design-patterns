@@ -1,6 +1,6 @@
 ---
 title: Pay to play
-layout: default
+layout: post
 short_desc: "Charging a fee to update the register in order to fund general maintenance"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Accuracy"
-layout: default
+layout: post
 short_desc: "A list may be entirely accurate or have some known errors, or have some elements where the provenance and accuracy are unknown."
 
 ---

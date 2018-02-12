@@ -1,6 +1,6 @@
 ---
 title: Custodial discretion
-layout: default
+layout: post
 short_desc: "For some registers there is an obvious decision maker who operates upon the contents of the register by fiat."
 ---
 

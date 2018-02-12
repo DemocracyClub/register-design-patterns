@@ -10,17 +10,26 @@ These categories should be considered as having soft, porous edges, and have bee
 Due to the scope of this work, we have not attempted to create an academically rigorous and extensively validated framework for list categorisation, although we would welcome such work were it conducted and widely disseminated.
 
 
+<div class="container">
+<div class="columns">
+
 {% for item in site.list_properties %}
 {% if item.url != "/list_properties/index.html" %}
-<div class="card">
-<h3 class="card-header">
+<div class="col-4 card-collection">
 <a href="{{ site.baseurl }}{{ item.url }}">
+<div class="card odi-{% cycle "purple", "orange", "pink", "light-blue", "red" %}">
+<h3 class="card-header">
 {{ item.title }}
-</a>
 </h3>
 <div class="card-body">
 <p>{{ item.short_desc }}</p>
 </div>
 </div>
+</a>
+</div>
 {% endif %}
 {% endfor %}
+
+
+</div>
+</div>

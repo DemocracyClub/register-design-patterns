@@ -1,6 +1,6 @@
 ---
 title: "Primary or Secondary"
-layout: default
+layout: post
 short_desc: "Some lists of things will be the primary source of that information. Others, will not - for instance aggregating several smaller lists or deriving information from another source."
 ---
 
@@ -18,4 +18,3 @@ A list which is the main source of the information contained within it. For inst
 ## Secondary
 
 A list which is created from other sources of information. For instance an aggregated register of attendance for ani entire school, or the database of companies provided by Open Corporates.
-

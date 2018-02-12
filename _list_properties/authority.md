@@ -1,6 +1,6 @@
 ---
 title: "Authority"
-layout: default
+layout: post
 short_desc: "How completeness and accuracy can be asserted"
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: User needs for data
-layout: default
+layout: post
 number: 4
 ---
 
