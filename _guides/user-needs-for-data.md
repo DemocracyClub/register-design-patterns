@@ -4,7 +4,7 @@ layout: post
 number: 4
 ---
 
-Best in class design thinking [starts with needs](https://web.archive.org/web/20140628221103/https://www.gov.uk/design-principles). The hard thing is working how who’s needs you need to start with.
+Best in class design thinking [starts with needs](https://web.archive.org/web/20140628221103/https://www.gov.uk/design-principles). The hard thing is working out whose needs you need to start with.
 
 For products and services the needs of the end user and any admin users or maintainers are the obvious starting points, however for registers the users should not be confused with the users of the end product that the data is used for.
 
