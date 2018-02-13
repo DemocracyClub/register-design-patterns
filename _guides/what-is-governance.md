@@ -1,5 +1,5 @@
 ---
-title: What is a governance?
+title: What is governance?
 layout: post
 ---
 
