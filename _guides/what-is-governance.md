@@ -1,6 +1,6 @@
 ---
 title: What is a governance?
-layout: default
+layout: post
 ---
 
 Governance describes the process of maintaining a register. This includes how
