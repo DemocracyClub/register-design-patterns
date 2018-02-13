@@ -1,7 +1,7 @@
 ---
 title: What is a register?
 number: 1
-layout: default
+layout: post
 ---
 
 A register is a list of something important enough that lots of people care
