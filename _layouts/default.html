@@ -7,20 +7,20 @@
       <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
         <div class="container">
           <img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo">
-          <span id="page-title">{{ site.title }}</span>
+          <a href="{{ site.baseurl }}/">
+            <span id="page-title">{{ site.title }}</span>
+          </a>
           <nav>
             <button class="menu">Menu</button>
             <ul>
-              <li><a href="{{ site.baseurl }}/">Home</a></li>
-              <li><a href="{{ site.baseurl }}/guides">Designing a register</a></li>
-              <li><a href="{{ site.baseurl }}/list_properties">Properties of lists</a></li>
-              <li><a href="{{ site.baseurl }}/governance_patterns">Governance patterns</a></li>
+              <li><a href="{{ site.baseurl }}/list_properties">Talking about lists</a></li>
+              <li><a href="{{ site.baseurl }}/governance_patterns">Register design patterns</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
-      <div class="odi-red">
+      <div class="{% if page.category == 'pattern' %}odi-purple{% elsif page.category == 'list-property' %}odi-turquoise{% else %}odi-red{% endif %}">
         <div class="container grid-md">
           <div class="row">
             <div class="col">

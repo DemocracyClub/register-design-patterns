@@ -2,6 +2,7 @@
 title: "Primary or Secondary"
 layout: post
 short_desc: "Some lists of things will be the primary source of that information. Others, will not - for instance aggregating several smaller lists or deriving information from another source."
+category: list-property
 ---
 
 Some lists of things will be the primary source of that information. Others, will not - for instance aggregating several smaller lists or deriving information from another source.

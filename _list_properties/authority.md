@@ -2,7 +2,7 @@
 title: "Authority"
 layout: post
 short_desc: "How completeness and accuracy can be asserted"
-
+category: list-property
 ---
 
 

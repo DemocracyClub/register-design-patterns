@@ -3,6 +3,7 @@ permalink: /list_properties/index.html
 title: Properties of lists
 layout: default
 item_name: ''
+category: list-property
 ---
 
 These categories should be considered as having soft, porous edges, and have been created by examining a large number of lists during the course of this research, as well as noting the way in which people discuss them and describe their key features.

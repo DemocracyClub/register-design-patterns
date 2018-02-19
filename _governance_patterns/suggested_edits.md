@@ -2,6 +2,7 @@
 title: "Suggested edits"
 layout: post
 short_desc: "The ability to do the work of making a change and submit it to the governance system"
+category: pattern
 ---
 
 More advanced than error reporting is the ability to do the work of making a change and submit it to the governance system that control the list.

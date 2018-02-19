@@ -1,7 +1,8 @@
 ---
-title: "Post-moderation"
+title: "Direct access"
 layout: post
 short_desc: "Edits are made directly with the option of roll back at a later date."
+category: pattern
 ---
 
 ## Strengths
@@ -51,7 +52,6 @@ changes the default behaviour such that only administrators can make such change
 * [Reality Describing][relation]
 * [Secondary Registers][primaryness]
 
-
 ## Examples
 
 * [Wikidata][wikidata]
@@ -60,7 +60,7 @@ changes the default behaviour such that only administrators can make such change
 
 ## Alternative names
 
-* Direct Access
+* Post-hoc moderation
 * Wiki
 * Crowdsourcing
 

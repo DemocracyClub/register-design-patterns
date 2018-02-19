@@ -2,7 +2,7 @@
 title: "Relation to reality"
 layout: post
 short_desc: "By being on the register of children in class 1B, a child becomes a member of class 1B."
-
+category: list-property
 ---
 
 Lists have different relationships to the way in which we understand the world. For instance, the classroom attendance register is describing which children were in the room, while by being on the register of children in class 1B, a child becomes a member of class 1B.

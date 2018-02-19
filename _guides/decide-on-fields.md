@@ -1,5 +1,5 @@
 ---
-title: Decide on fields
+title: How to decide on fields
 number: 6
 layout: post
 ---

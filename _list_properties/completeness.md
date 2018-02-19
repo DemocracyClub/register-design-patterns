@@ -2,6 +2,7 @@
 title: "Completeness"
 layout: post
 short_desc: "A list may be either complete or incomplete. A list may be incomplete because it does not contain all the entities that should be on the list It may also be incomplete because it does not contain all of the pieces of information about each entity."
+category: list-property
 ---
 
 

@@ -1,17 +1,35 @@
 ---
-title: "Register design guide"
+title: Designing a register people will trust
 layout: default
 category: "1. Introduction"
 ---
 
-A register is a list of something important enough that lots of people care about having an accurate, complete list of it. For us to think of a list as a register, some institution must have promised to keep it up to date. Registers are only useful when we trust them. This means that we need a reason to trust the process of keeping the list up to date, ideally because the decision making process is clear and transparent.
+Learn about designing collaborative open registers with robust governance and get help
+managing them once they're published.
 
-Digital Registers are important because they reduce the cost of services that require data to operate, as well as reducing the burden on institutions required to manage data.
 
-This transition has the potential to unlock spaces for new products and services which have previously been too expensive or too risky to survive.
+<div class="container">
+<div class="columns">
 
-We argue that all non-trivial examples of registers employ some degree of collaboration, and that their quality and usefulness increases the more they embrace that collaboration.
 
-Modern technology has given us tools we can use to make that process faster, cheaper and more accessible, and we should take advantage of that opportunity to drive the quality of our data infrastructure up, at reduced cost.
+{% assign items = site.guides | sort: 'number' %}
+{% for item in items %}
+{% if item.url != '/guides/index.html' %}
+<div class="col-4 col-mx  card-collection">
+<a href="{{ site.baseurl }}{{ item.url }}">
+<div class="card odi-{% cycle "purple", "orange", "pink", "light-blue", "red" %}">
+<h3 class="card-header">
+{{ item.title }}
+</h3>
+<div class="card-body">
+<p>{{ item.short_desc }}</p>
+</div>
+</div>
+</a>
+</div>
 
-Read more about the <a href="{{ site.baseurl }}/list_properties">properties of lists</a> and the <a href="{{ site.baseurl }}/governance_patterns">governance patterns</a> for them.
+{% endif %}
+{% endfor %}
+
+</div>
+</div>

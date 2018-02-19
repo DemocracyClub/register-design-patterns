@@ -2,6 +2,7 @@
 title: Pay to play
 layout: post
 short_desc: "Charging a fee to update the register in order to fund general maintenance"
+category: pattern
 ---
 
 On occasion, institutions who are paid to maintain a register are also

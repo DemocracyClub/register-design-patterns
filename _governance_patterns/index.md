@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Governance patterns
+title: Register design patterns
 permalink: /governance_patterns/index.html
 item_name: ''
+category: pattern
 ---
 
 

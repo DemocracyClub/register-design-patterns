@@ -80,7 +80,7 @@ defaults:
       path: ""
       type: governance_patterns
     values:
-      item_name: "Governance pattern"
+      item_name: "Register design pattern"
   - scope:
       path: ""
       type: guides

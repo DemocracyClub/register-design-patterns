@@ -2,7 +2,22 @@
 title: Custodial discretion
 layout: post
 short_desc: "For some registers there is an obvious decision maker who operates upon the contents of the register by fiat."
+category: pattern
 ---
+
+## Strengths
+
+* Clear lines of responsibility
+
+## Weaknesses
+
+While errors can be fixed by the right person within the
+organisation that created the list, finding that person is often hard and
+formal error reporting mechanisms may not exist. This model is poorly suited
+to reality describing registers and only works for reality altering registers
+when the custodian is always involved in the change process.
+
+## Discussion
 
 For some registers there is an obvious decision maker who operates upon the
 contents of the register by fiat. This is most commonly due to having either
@@ -21,16 +36,16 @@ custodial discretion model may just as easily operate on a whim, or make
 decisions in a smoke filled room with minimal transparency over the precise
 process.
 
-This means that while errors can be fixed by the right person within the
-organisation that created the list, finding that person is often hard and
-formal error reporting mechanisms may not exist. This model is poorly suited
-to reality describing registers and only works for reality altering registers
-when the custodian is always involved in the change process.
+## Appropriate for
+
+* [Secondary Registers][primaryness]
+
 
 ### Examples
 
-<div class="card-panel">
-Bug tracker / GitHub pull request
+* A level English literature set texts
+* Directors of a company
+* Microsoft supported browsers
 
-*
-</div>
+
+[primaryness]: {{ site.baseurl }}{% link _list_properties/primaryness.md %}

@@ -1,5 +1,5 @@
 ---
-title: Decide on identifiers
+title: How to decide on identifiers
 number: 5
 layout: post
 ---
