@@ -6,6 +6,7 @@
     <main>
       <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
         <div class="container">
+          <img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo">
           <span id="page-title">{{ site.title }}</span>
           <nav>
             <button class="menu">Menu</button>
