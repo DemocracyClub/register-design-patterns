@@ -6,18 +6,27 @@ category: pattern
 ---
 
 
-
-This is the simplest form of collaboration, where anyone can report and error to a person, organisation or through a process. Error repointing works for all forms of governance.
-
+## Strengths
 
 
+## Weaknesses
 
 
+## Discussion
 
-### Example
+This is the simplest form of collaboration, where anyone can report and error to
+a person, organisation or through a process. Error repointing works for all
+forms of governance.
 
-<div class="card-panel">
-## National Heritage List for England  reporting 'Minor&nbsp;Amendments'
+## Appropriate for
+
+* Everything
+
+## Examples
+
+* National Heritage List for England  reporting 'Minor&nbsp;Amendments'
+
+#### Case study
 
 The list of "listed" buildings in the UK maintained by Historic England publishes [guidance on reporting "minor amendments"][minor_amendments]:
 
@@ -25,6 +34,5 @@ The list of "listed" buildings in the UK maintained by Historic England publishe
 
 Reporting an error starts a process of investigation, possible updates to the list and feedback to the initial reporter and "any interested parties".
 
-</div>
 
 [minor_amendments]: https://historicengland.org.uk/listing/the-list/minor-amendments/

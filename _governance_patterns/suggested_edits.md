@@ -5,7 +5,26 @@ short_desc: "The ability to do the work of making a change and submit it to the 
 category: pattern
 ---
 
+## Strengths
+
+
+## Weaknesses
+
+
+## Discussion
+
 More advanced than error reporting is the ability to do the work of making a change and submit it to the governance system that control the list.
+
+## Appropriate for
+
+*
+
+## Examples
+
+* Local Authorities
+
+#### Case study
+
 
 GitHub Pull Requests or are a form of this and can be seen in action on [this pull request to the DCLG register of local authorities in England][local_auth_eng]:
 
