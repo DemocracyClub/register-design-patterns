@@ -12,19 +12,17 @@ Due to the scope of this work, we have not attempted to create an academically r
 
 
 <div class="container">
-<div class="columns">
+<div class="fukol-grid">
 
 {% for item in site.list_properties %}
 {% if item.url != "/list_properties/index.html" %}
-<div class="col-4 card-collection">
-<a href="{{ site.baseurl }}{{ item.url }}">
 <div class="card odi-{% cycle "purple", "orange", "pink", "light-blue", "red" %}">
+<a href="{{ site.baseurl }}{{ item.url }}">
 <h3 class="card-header">
 {{ item.title }}
 </h3>
 <div class="card-body">
 <p>{{ item.short_desc }}</p>
-</div>
 </div>
 </a>
 </div>

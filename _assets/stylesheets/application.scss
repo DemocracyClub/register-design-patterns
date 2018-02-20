@@ -192,7 +192,7 @@ main > .container {
     .col > p:first-child {
         font-size:1.4em;
     }
-    .card-collection a {
+    .card a {
         &:hover {
             color: $colour_white;
         }
@@ -206,14 +206,14 @@ main > .container {
     }
 
     .card {
-
-        h3 {
-            font-size:35px;
-            line-height: 38px;
-            margin-bottom: 20px;
-            font-weight: bold;
-            color: $colour_white;
-        }
+      border:none;
+      h3 {
+          font-size:35px;
+          line-height: 38px;
+          margin-bottom: 20px;
+          font-weight: bold;
+          color: $colour_white;
+      }
     }
     li {
         list-style:outside;
@@ -273,4 +273,17 @@ code, tt {
     font-size: 85%;
     background-color: rgba(27,31,35,0.09);
     border-radius: 3px;
+}
+
+
+.fukol-grid {
+  display: flex; /* 1 */
+  flex-wrap: wrap; /* 2 */
+  margin: -0.5em; /* 5 (edit me!) */
+}
+
+.fukol-grid > * {
+  flex: 1 0 21em; /* 3 (edit me!) */
+  margin: 0.5em; /* 4 (edit me!) */
+  max-width:100%;
 }
