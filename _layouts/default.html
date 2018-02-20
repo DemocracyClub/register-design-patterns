@@ -6,7 +6,7 @@
     <main>
       <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
         <div class="container">
-          <img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo">
+          <img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo" alt="The ODI">
           <a href="{{ site.baseurl }}/">
             <span id="page-title">{{ site.title }}</span>
           </a>
@@ -54,16 +54,10 @@
 
     <footer>
       <div class="container  grid-md">
-        <p>Made by <a href="http://openhealthcare.org.uk/">Open Health Care</a>
-          and <a href="https://democracyclub.org.uk">Democracy Club</a>
-          for <a href="https://theodi.org/">The ODI</a>
-        </p>
-        <p>This site is open source and operates on a
-          <a href="{{ site.baseurl }}{% link _governance_patterns/suggested_edits.md %}">
-            suggested edit governance model</a>. </p>
+        <p><a href="https://theodi.org/"><img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo" alt="The ODI"></a></p>
 
         <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/{{page.path}}">
-            Edit this page on GitHub</a> or <a href="{{site.baseurl}}/todo_list/">look at some things we have left todo</a>.</p>
+            Edit this page on GitHub</a>.</p>
         <p>
           <a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
             <img alt="Creative Commons Licence" height="15" src="//static.theodi.org/assets/cc-a23fe95f04508432c8d97c00b0a36254.png" width="80">

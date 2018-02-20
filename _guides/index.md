@@ -1,18 +1,16 @@
 ---
-title: Designing a register people will trust
+title: Designing a list people will trust
 layout: default
 permalink: /guides/index.html
 item_name: ''
 ---
 
-Learn about designing collaborative open registers with robust governance and get help
-managing them once they're published.
+Learn about designing collaborative open lists with robust governance and get
+help managing them once they're published.
 
 
 <div class="container">
 <div class="columns">
-
-
 {% assign items = site.guides | sort: 'number' %}
 {% for item in items %}
 {% if item.url != '/guides/index.html' %}

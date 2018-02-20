@@ -5,11 +5,7 @@ layout: post
 ---
 
 
-Detailing best practices for publishing data is out of scope of this site, however good publishing is vital to good digital registers.
+Detailing best practices for publishing data is out of scope of this site, however good publishing is vital to good digital lists.
 
-Start with these guides:
 
-* [LINK](https://duckduckgo.com/?q=publishing+data)
-* [LINK](https://duckduckgo.com/?q=publishing+data)
-
-<!-- TODO Get links on data publishing from ODI -->
+[The ODI have published a set of guides on this topic](https://theodi.org/guides)

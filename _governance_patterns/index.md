@@ -7,11 +7,12 @@ category: pattern
 ---
 
 
-Governance describes the process of maintaining a register. That is,
-governance includes how and when information in a register is added, removed
-or changed and who does the updating. Understanding the governance of a
-register allows people considering using the register to make informed
-decisions about how much they can rely on it.
+Governance describes the process of maintaining a list. That is, governance
+includes how and when information in a list is added, removed or changed and
+who does the updating.
+
+Understanding the governance of a list allows people considering using the
+register to make informed decisions about how much they can rely on it.
 
 <div class="container">
 <div class="fukol-grid">
