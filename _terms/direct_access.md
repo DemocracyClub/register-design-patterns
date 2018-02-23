@@ -4,23 +4,16 @@ layout: page
 short_desc: "Edits are made directly with the option of roll back at a later date."
 category: pattern
 ---
-
-## Strengths
-
 The most permissive change model is to provide tools that allow anyone to
 directly alter the list. These tools may be an online service acting in a
 wiki style, or they may be paper forms that one fills in and then sends to the
 custodian responsible for compiling or publishing the list itself.
-
-## Weaknesses
 
 Direct access models must provide some mechanism to deal with vandalism or
 fraudulent entries, and frequently include a more proactive mechanism for
 reporting inaccuracies. Particularly with official lists which carry some
 legal weight there may be penalties for deliberately entering misinformation
 into a list.
-
-## Discussion
 
 Where lists using this model have been created in the recent past, they have
 tended be created alongside and evolve with tools explicitly designed to
@@ -47,15 +40,6 @@ Similarly, with crowdsourced lists such as [Wikidata][wikidata], while the
 default is direct access to create, alter or remove entries, certain pages are
 protected. This changes the default behaviour such that only administrators
 can make such changes.
-
-## Appropriate for
-
-* [Reality Describing][relation]
-* [Secondary Registers][primaryness]
-
-## Not normally appropriate for
-
-* [Reality altering][relation]
 
 ## Examples
 
