@@ -14,4 +14,31 @@ layout: base
   <div class="container">
     {{content}}
   </div>
+  <section id="about">
+    <div class="container">
+      <div class="fukol-grid">
+        <div>
+          <h3>What is this website?</h3>
+          <p>
+            This website was created to help people understand registers, lists
+            of information and the importance of good governance practices. It
+            was the result of a research project into the use of registers…
+          </p>
+          <p><a href="{{ site.baseurl }}/about/">Read more</a></p>
+        </div>
+        <div>
+          <h3>Glossary</h3>
+          <ul class="glossary-list">
+            {% for item in site.terms %}
+            <li>
+              <a href="{{ site.baseurl }}{{ item.url }}">
+                {{ item.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 </article>
