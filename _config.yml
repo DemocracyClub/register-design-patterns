@@ -59,13 +59,7 @@ description: Primer is a Jekyll theme for GitHub Pages
 markdown: pandoc
 
 collections:
-  list_properties:
-    output: true
-    permalink: /:collection/:name
-  governance_patterns:
-    output: true
-    permalink: /:collection/:name
-  guides:
+  terms:
     output: true
     permalink: /:collection/:name
 
@@ -73,16 +67,6 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: list_properties
+      type: terms
     values:
-      item_name: "List property"
-  - scope:
-      path: ""
-      type: governance_patterns
-    values:
-      item_name: "Register design pattern"
-  - scope:
-      path: ""
-      type: guides
-    values:
-      item_name: "Design guide"
+      item_name: "Term"

@@ -30,4 +30,4 @@ data for free at the point of use - and institutional revenue maximisation.
 * Land Registry
 * Companies House
 
-[direct_access]: {{ site.baseurl }}{% link _governance_patterns/direct_access.md %}
+[direct_access]: {{ site.baseurl }}{% link _terms/direct_access.md %}
