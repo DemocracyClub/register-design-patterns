@@ -1,6 +1,6 @@
 ---
 title: Custodial discretion
-layout: base
+layout: page
 short_desc: "For some lists there is an obvious decision maker who operates
 upon the contents of the list by fiat."
 category: pattern

@@ -1,6 +1,6 @@
 ---
 title: "Authority"
-layout: base
+layout: page
 short_desc: "How completeness and accuracy can be asserted"
 category: list-property
 ---

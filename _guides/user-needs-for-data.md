@@ -1,6 +1,6 @@
 ---
 title: User needs for data
-layout: base
+layout: page
 number: 4
 ---
 
