@@ -185,8 +185,11 @@ main > section#governance {
   }
 }
 
-main > section#about {
-  .container {
+section#about {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color:#F5F5F5;
+    .container {
     max-width:60em;
     padding-bottom:2em;
   }
