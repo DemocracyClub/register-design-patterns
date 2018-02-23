@@ -1,8 +1,23 @@
 ---
-title: How to decide on fields
-number: 6
+title: Design consideration for publishing lists
+number: 1
 layout: page
 ---
+
+## Be a good data citizen
+
+Start with <a href="https://theodi.org/guides">best practices for data publishing</a> and apply them to your list.
+
+## User needs for data
+
+Best in class design thinking [starts with needs](https://web.archive.org/web/20140628221103/https://www.gov.uk/design-principles). The hard thing is working out whose needs you need to start with.
+
+For products and services the needs of the end user and any admin users or maintainers are the obvious starting points, however for lists the users should not be confused with the users of the end product that the data is used for.
+
+For example, the [FCO register of countries](https://country.register.gov.uk/) is used on the [register to vote service](https://www.gov.uk/register-to-vote), but the users of the register are not the people registering to vote.
+
+Thinking about the needs of lists is like thinking about the needs of electricity or a can of blue paint. The users want things like reliability and consistency, and they want those things in turn because they want a cup of tea, or blue walls.
+
 
 A ‘field’ is sometimes called a ‘value’ and is a piece of information that in a spreadsheet would be held in a cell, or on a web site might appear in an input area on a form.
 
@@ -12,7 +27,7 @@ It's important to think hard about the fields in a list. Start by asking the fol
 
 ### What are the user needs for each field?
 
-Think about [user needs][user_needs] for each field as well as the list itself.
+Think about user needs for each field as well as the list itself.
 
 ### Is there a standard that can be used to represent the data?
 
@@ -40,6 +55,19 @@ Just because you can't promise a fields accuracy doesn't mean you shouldn't incl
 
 It might be better to split the register in to two at this stage: one that only contains fields you can make a promise about and one with additional fields that contains warnings.
 
+## How to decide on identifiers
 
-[user_needs]: {{ site.baseurl }}{% link _terms/user-needs-for-data.md %}
+Sometimes a list of things might contain an identifier for other identifiable things. For example, a list of schools might contain a local authority that manages that school.
+
+It's tempting to use this ID when creating your ID system. This would allow users of the ID to understand more about the thing, just by looking at the ID.
+
+For example, a school might exist in a local authority with an ID of 42. This means you could make an ID that looks something like `42-01` for the first school in that authority, `42-02` for the next, and so on.
+
+This system has the advantage that the authority is known by looking at the ID, but you are still in control of issuing new IDs.
+
+In this example, you must still ask questions about the ID issuing authority. How will your IDs change if two local authorities merge in to one? If the authority changes its name or boundaries, does it get a new ID?
+
+If you are making IDs about a list of thing that you control, it is best to avoid relying on other IDs, unless you are sure the other ID system will work with your list when it's changed.
+
+
 [what-is-a-register]: {{ site.baseurl }}{% link what-is-a-register.md %}
