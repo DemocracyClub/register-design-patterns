@@ -73,6 +73,6 @@ can make such changes.
 [wikidata]: https://www.wikidata.org/wiki/Wikidata:Main_Page
 [osm]: https://wiki.openstreetmap.org/wiki/Beginners_Guide_1.3
 [candidates]: https://candidates.democracyclub.org.uk/
-[relation]: {{ site.baseurl }}{% link _list_properties/relation-to-reality.md %}
-[primaryness]: {{ site.baseurl }}{% link _list_properties/primaryness.md %}
+[relation]: {{ site.baseurl }}{% link _terms/relation-to-reality.md %}
+[primaryness]: {{ site.baseurl }}{% link _terms/primaryness.md %}
 [companieshouse]: http://companieshouse.gov.uk/

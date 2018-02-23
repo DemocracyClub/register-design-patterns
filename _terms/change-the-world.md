@@ -29,5 +29,5 @@ the list of planets.
 * To take an extreme example, it's possible for someone who has no involvement in the governance of the UK country register to change it by invading one of the countries and renaming it.
 
 
-[relation]: {{ site.baseurl }}{% link _list_properties/relation-to-reality.md %}
-[primaryness]: {{ site.baseurl }}{% link _list_properties/primaryness.md %}
+[relation]: {{ site.baseurl }}{% link _terms/relation-to-reality.md %}
+[primaryness]: {{ site.baseurl }}{% link _terms/primaryness.md %}

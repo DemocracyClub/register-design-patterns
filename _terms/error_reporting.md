@@ -47,5 +47,5 @@ Reporting an error starts a process of investigation, possible updates to the li
 
 [minor_amendments]: https://historicengland.org.uk/listing/the-list/minor-amendments/
 
-[suggested_edits]: {{ site.baseurl }}{% link _governance_patterns/suggested_edits.md %}
-[audit_trail]: {{ site.baseurl }}{% link _governance_patterns/audit-trails.md %}
+[suggested_edits]: {{ site.baseurl }}{% link _terms/suggested_edits.md %}
+[audit_trail]: {{ site.baseurl }}{% link _terms/audit-trails.md %}

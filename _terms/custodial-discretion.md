@@ -74,9 +74,9 @@ For reality describing lists a custodian is the best way to maintain them.
 * FCO list of countries recognised by the UK
 
 
-[primaryness]: {{ site.baseurl }}{% link _list_properties/primaryness.md %}
-[relation-to-reality]: {{ site.baseurl }}{% link _list_properties/relation-to-reality.md %}
-[error_reporting]: {{ site.baseurl }}{% link _governance_patterns/error_reporting.md %}
-[suggested_edits]: {{ site.baseurl }}{% link _governance_patterns/suggested_edits.md %}
-[change-the-world]: {{ site.baseurl }}{% link _governance_patterns/change-the-world.md %}
-[what-is-a-register]: {{ site.baseurl }}{% link _guides/what-is-a-register.md %}
+[primaryness]: {{ site.baseurl }}{% link _terms/primaryness.md %}
+[relation-to-reality]: {{ site.baseurl }}{% link _terms/relation-to-reality.md %}
+[error_reporting]: {{ site.baseurl }}{% link _terms/error_reporting.md %}
+[suggested_edits]: {{ site.baseurl }}{% link _terms/suggested_edits.md %}
+[change-the-world]: {{ site.baseurl }}{% link _terms/change-the-world.md %}
+[what-is-a-register]: {{ site.baseurl }}{% link what-is-a-register.md %}
