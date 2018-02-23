@@ -131,7 +131,10 @@ body > header nav {
 
 main > section:not(.hero) {
   .container {
-    max-width:45em;
+    max-width:45rem;
+    p {
+      font-size:1.2em;
+    }
   }
 
   h2 .header-number {
@@ -164,18 +167,54 @@ main > section + section {
   margin-top:1rem;
 }
 
-main> section#about {
-  text-align:left;
+main > section#governance {
+  [role=listitem] {
+    margin-bottom:3em;
+    position:relative;
+
+    p {
+      font-size:1em;
+    }
+
+    p + p {
+      position:absolute;
+      display:block;
+      bottom:-2em;
+      width:100%;
+    }
+  }
+}
+
+main > section#about {
   .container {
     max-width:60em;
     padding-bottom:2em;
   }
-  div {
+  p {
+    font-size:1em;
   }
+  @media (min-width:30em) {
+    text-align:left;
+    p {
+      max-width:80%;
+    }
+  }
+
   .glossary-list {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+    @media (min-width:30em) {
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2;
+      text-align:left;
+    }
+    text-align:center;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    li {
+      margin:0.5em 0;
+      padding:0;
+    }
   }
 }
 
@@ -194,6 +233,11 @@ footer {
     }
 }
 
+a, a:visited {
+  color:$odi_random_link_blue_not_in_brand_guide;
+
+}
+
 code, tt {
     padding: 0.2em 0.4em;
     margin: 0;
@@ -210,70 +254,13 @@ dl {
 }
 
 
-
-
-
-//---------------------------------------------------------
-//a {
-//    color: $odi_random_link_blue_not_in_brand_guide;
-//
-//    &:hover{
-//        color: $odi_random_link_hover_not_in_brand_guide;
-//        text-decoration:underline;
-//    }
-//}
-//
-//.large_banner_footer {
-//    // background-color:$colour_black;
-//    // color:$odi_grey;
-//    width:100%;
-//    h2 {
-//        font-size:1.5em;
-//        a {
-//            color: $colour_main_dark;
-//        }
-//    }
-//}
-////
-//main > .container {
-//    margin-top:2em;
-//
-//    p {
-//        font-size:1.1em;
-//    }
-//
-//    p:first-child {
-//        font-size:1.5em;
-//    }
-//    .card a {
-//        &:hover {
-//            color: $colour_white;
-//        }
-//    }
-//    a .card-body p {
-//        font-size: 21px;
-//        font-weight: bold;
-//        line-height: 26px;
-//        margin-bottom: 26px;
-//        color: $colour_white;
-//    }
-//
-//    .card {
-//      border:none;
-//      h3 {
-//          font-size:35px;
-//          line-height: 38px;
-//          margin-bottom: 20px;
-//          font-weight: bold;
-//          color: $colour_white;
-//      }
-//    }
-//    li {
-//        list-style:outside;
-//        margin-left:1em;
-//    }
-//}
-//
-//
-//
-//
+.term, .term:visited {
+    background-color: rgb(253, 234, 189);
+    padding: 3px;
+    border-radius: 6px;
+    color: rgb(128,109,64);
+    text-decoration: none;
+}
+.term:hover {
+    text-decoration: underline;
+}
