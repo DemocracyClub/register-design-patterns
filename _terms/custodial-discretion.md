@@ -62,7 +62,7 @@ Only works for small lists where someone can reasonably manage it all. Larger li
 * A level English literature set texts
 * Directors of a company
 * Microsoft supported browsers
-* [FCO list of countries recognised by the UK](country.register.gov.uk)
+* [FCO list of countries recognised by the UK](https://country.register.gov.uk)
 
 
 [primaryness]: {{ site.baseurl }}{% link _terms/primaryness.md %}
