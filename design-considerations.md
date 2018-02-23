@@ -37,7 +37,7 @@ Start with simple standards like [ISO 8601](https://en.wikipedia.org/wiki/ISO_86
 
 If the data in the field is contained in another list then consider linking to that list rather than duplicating it. This is especially true if you don't know the origin of the data.
 
-Linking doesn't have to be any more advanced than using the identifier defined in the other list and documenting the list used. If more than one list is linked to then a `[CURIE](https://en.wikipedia.org/wiki/CURIE)` can be used.
+Linking doesn't have to be any more advanced than using the identifier defined in the other list and documenting the list used. If more than one list is linked to then a [CURIE](https://en.wikipedia.org/wiki/CURIE) can be used.
 
 There are many options for linking data and those options are outside of the scope of these guides.
 
