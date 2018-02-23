@@ -4,7 +4,7 @@ layout: page
 short_desc: "The ability to do the work of making a change and submit it to the governance system"
 category: pattern
 ---
-More advanced than <a href="{{ site.baseurl }}/terms/error-reporting/">error reporting</a> is the ability to do the work of making a change and submitting that change to
+More advanced than <a href="{{ site.baseurl }}{% link _terms/error_reporting.md %}">error reporting</a> is the ability to do the work of making a change and submitting that change to
 the custodians of the list directly.
 
 #### Case study

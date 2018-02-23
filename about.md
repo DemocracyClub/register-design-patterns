@@ -13,4 +13,4 @@ You can read the report produced as part of that research project
 The research was conducted in 2017-18 by
 <a href="https://democracyclub.org.uk">Democracy Club</a> and
 <a href="http://openhealthcare.org.uk">Open Health Care</a>
-on behalf of <a href="theodi.org">The ODI</a>.
+on behalf of <a href="https://theodi.org">The ODI</a>.
