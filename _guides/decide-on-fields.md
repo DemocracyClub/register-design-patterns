@@ -1,7 +1,7 @@
 ---
 title: How to decide on fields
 number: 6
-layout: base
+layout: page
 ---
 
 A ‘field’ is sometimes called a ‘value’ and is a piece of information that in a spreadsheet would be held in a cell, or on a web site might appear in an input area on a form.
@@ -28,7 +28,7 @@ There are many options for linking data and those options are outside of the sco
 
 ### What is the origin of the data in each field?
 
-Depending on the [governance pattern][governance_pattern] you might not know when all the fields change.
+Depending on the governance pattern you might not know when all the fields change.
 
 For example, a supermarket company might publish a list of shop locations.
 
@@ -41,6 +41,5 @@ Just because you can't promise a fields accuracy doesn't mean you shouldn't incl
 It might be better to split the register in to two at this stage: one that only contains fields you can make a promise about and one with additional fields that contains warnings.
 
 
-[governance_pattern]: {{ site.baseurl }}{% link _governance_patterns/index.md %}
 [user_needs]: {{ site.baseurl }}{% link _guides/user-needs-for-data.md %}
 [what-is-a-register]: {{ site.baseurl }}{% link _guides/what-is-a-register.md %}

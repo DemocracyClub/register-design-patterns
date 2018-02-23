@@ -1,7 +1,7 @@
 ---
 title: How to decide on identifiers
 number: 5
-layout: base
+layout: page
 ---
 
 Sometimes a list of things might contain an identifier for other identifiable things. For example, a list of schools might contain a local authority that manages that school.

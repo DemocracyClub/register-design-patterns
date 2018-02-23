@@ -1,6 +1,6 @@
 ---
 title: Pay to play
-layout: base
+layout: page
 short_desc: "Charging a fee to update the list in order to fund general maintenance"
 category: pattern
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Audit Trails"
-layout: base
+layout: page
 short_desc: "A log of changes made"
 category: pattern
 ---
