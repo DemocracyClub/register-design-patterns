@@ -1,26 +1,22 @@
 .icon {
   display:block;
-  height:53px;
-  width:64px;
+  height:71px;
+  width:94px;
   margin:0 auto;
 }
 
 .icon-maintains {
-    width: 94px; height: 71px;
     background: asset_url("icons.png") -10px -10px;
 }
 
 .icon-adds {
-    width: 86px; height: 53px;
     background: asset_url("icons.png") -10px -101px;
 }
 
 .icon-errors {
-    width: 66px; height: 54px;
     background: asset_url("icons.png") -226px -10px;
 }
 
 .icon-pays {
-    width: 82px; height: 57px;
     background: asset_url("icons.png") -124px -10px;
 }
