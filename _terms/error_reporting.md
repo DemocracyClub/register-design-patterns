@@ -4,18 +4,6 @@ layout: page
 short_desc: "Anyone can report and error to a person, organisation or through a process."
 category: pattern
 ---
-
-
-## Strengths
-
- If all users of a list are allowed to report errors then there is a higher chance they are discovered. Error reporting allows the governance system to investigate errors without requiring everyone to be able to edit the data directly.
-
-## Weaknesses
-
-Reporting mechanisms might not be obvious or understood. Reports might opinions rather than errors. Management of user feedback has an overhead.
-
-## Discussion
-
 This is the simplest form of collaboration, where anyone can report and error
 to a person, organisation or through a process. Error repointing works for all
 forms of governance.
@@ -24,9 +12,9 @@ Error reporting is different from other patterns like [suggested edits][suggeste
 
 Error reports can be improved by making the progress of a report easy to follow by the reporter. An [audit trail][audit_trail] linked to the error report might help.
 
-## Appropriate for
+If all users of a list are allowed to report errors then there is a higher chance they are discovered. Error reporting allows the governance system to investigate errors without requiring everyone to be able to edit the data directly.
 
-* Everything
+Reporting mechanisms might not be obvious or understood. Reports might opinions rather than errors. Management of user feedback has an overhead.
 
 ## Examples
 

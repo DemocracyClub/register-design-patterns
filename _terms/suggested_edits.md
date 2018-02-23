@@ -4,24 +4,8 @@ layout: page
 short_desc: "The ability to do the work of making a change and submit it to the governance system"
 category: pattern
 ---
-
-## Strengths
-
-
-## Weaknesses
-
-
-## Discussion
-
-More advanced than error reporting is the ability to do the work of making a change and submit it to the governance system that control the list.
-
-## Appropriate for
-
-*
-
-## Examples
-
-* Local Authorities
+More advanced than <a href="{{ site.baseurl }}/terms/error-reporting/">error reporting</a> is the ability to do the work of making a change and submitting that change to
+the custodians of the list directly.
 
 #### Case study
 

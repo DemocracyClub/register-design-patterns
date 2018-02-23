@@ -13,15 +13,12 @@ We refer to these types as <strong class="chip">reality describing</strong> or <
 
 A list that somehow changes reality by an entry appearing. For instance the register of pupils in a class or the register of medical practitioners. This reality altering property is generally associated with the source of authority of the list and will commonly be due to either a logical institutional authority, or legislation that mandates the existence of the list.
 
-
-### Strengths
-
 If an authority has the ability to change the world around in a list then publishing that list will help others that rely on it. Publishing a list directly allow the canonicity to be enforced and 3rd parties to trust it.
-
-### Weaknesses
 
 Not all authorities can changes reality, or sometimes the reality isn't actually changed by the list. In these cases the list can become stale.
 
 
 ## Reality describing
-A list that describes the world as observed. For instance a class register of attendance or the wikidata list of countries in the European Union.
+
+A list that describes the world as observed. For instance a class register of attendance, the [Wikipedia list of rivers longer than 1000km](https://en.wikipedia.org/wiki/List_of_rivers_by_length#List_of_rivers_longer_than_1000_km)
+or the wikidata list of countries in the European Union.

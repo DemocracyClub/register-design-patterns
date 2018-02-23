@@ -6,6 +6,32 @@ upon the contents of the list by fiat."
 category: pattern
 ---
 
+For some lists there is an obvious decision maker who operates upon the
+contents of the list by fiat. This is most commonly due to having either
+legislative custodianship or institutional authority.
+
+For instance, when Google decide to no longer support the Mosaic web browser
+and remove it from their list of supported web browsers, this decision is
+taken by a person or group who have been given executive power over it. This
+will result in Mosaic being removed from the list of supported web browsers.
+
+If one happens not to be the custodian the ability to affect change in the
+list is dramatically reduced.
+
+In some cases there may be a clear mechanism to [provide
+feedback][error_reporting] which provides some opportunity to [request
+additions or corrections][suggested_edits], but this is not always the case.
+
+It's possible for registers which operate a custodial discretion model operate
+on a whim, or make decisions in a smoke filled room with minimal transparency
+over the precise process.
+
+Despite this a custodian with proper authority provides much more ability to
+[make a promise][what-is-a-register] about the list.
+
+A list made without a logical custodian needs other patterns of governance to
+be done well.
+
 ## Strengths
 
 A custodial allows for clear lines of responsibility over changes to a
@@ -30,53 +56,17 @@ A lot of lists don't have a logical custodian even though they could in theory.
 
 Only works for small lists where someone can reasonably manage it all. Larger lists might not be able to be managed as well as they would be using other governance patterns.
 
-## Discussion
-
-For some lists there is an obvious decision maker who operates upon the
-contents of the list by fiat. This is most commonly due to having either
-legislative custodianship or institutional authority.
-
-For instance, when Google decide to no longer support the Mosaic web browser
-and remove it from their list of supported web browsers, this decision is
-taken by a person or group who have been given executive power over it. This
-will result in Mosaic being removed from the list of supported web browsers.
-
-If one happens not to be the custodian the ability to affect change in the
-list is [dramatically reduced][change-the-world].
-
-In some cases there may be a clear mechanism to [provide
-feedback][error_reporting] which provides some opportunity to [request
-additions or corrections][suggested_edits], but this is not always the case.
-
-It's possible for Registers which operate a custodial discretion model operate
-on a whim, or make decisions in a smoke filled room with minimal transparency
-over the precise process.
-
-Despite this a custodian with proper authority provides much more ability to
-[make a promise][what-is-a-register] about the list.
-
-A list made without a logical custodian needs other patterns of governance to
-be done well.
-
-For reality describing lists a custodian is the best way to maintain them.
-
-## Appropriate for
-
-* [Primary lists][primaryness]
-* [Reality altering][relation-to-reality]
-
 
 ### Examples
 
 * A level English literature set texts
 * Directors of a company
 * Microsoft supported browsers
-* FCO list of countries recognised by the UK
+* [FCO list of countries recognised by the UK](country.register.gov.uk)
 
 
 [primaryness]: {{ site.baseurl }}{% link _terms/primaryness.md %}
 [relation-to-reality]: {{ site.baseurl }}{% link _terms/relation-to-reality.md %}
 [error_reporting]: {{ site.baseurl }}{% link _terms/error_reporting.md %}
 [suggested_edits]: {{ site.baseurl }}{% link _terms/suggested_edits.md %}
-[change-the-world]: {{ site.baseurl }}{% link _terms/change-the-world.md %}
 [what-is-a-register]: {{ site.baseurl }}{% link what-is-a-register.md %}
