@@ -264,3 +264,24 @@ dl {
 .term:hover {
     text-decoration: underline;
 }
+
+
+article {
+  header {
+    @extend .hero;
+    h1 {
+      color:#FFF;
+    }
+    margin-bottom:1rem;
+    dfn {
+      font-style:normal;
+    }
+  }
+  .container {
+    max-width: 60em;
+    margin:0 auto;
+    p {
+      max-width:40em;
+    }
+  }
+}

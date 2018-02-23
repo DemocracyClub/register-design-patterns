@@ -1,7 +1,7 @@
 ---
 title: Why do we need registers?
 number: 2
-layout: base
+layout: page
 ---
 By treating lists as infrastructure we continue to have all of the advantages
 of maintaining a list that we had previously while also creating additional

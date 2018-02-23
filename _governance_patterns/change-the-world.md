@@ -1,6 +1,6 @@
 ---
 title: Change the world around us
-layout: base
+layout: page
 short_desc: "In some cases 3rd parties can change a list that they have no governance over."
 category: pattern
 ---
