@@ -1,6 +1,6 @@
 ---
 title: "Audit Trails"
-layout: post
+layout: base
 short_desc: "A log of changes made"
 category: pattern
 ---

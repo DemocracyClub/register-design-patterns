@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Register design patterns
 permalink: /governance_patterns/index.html
 item_name: ''

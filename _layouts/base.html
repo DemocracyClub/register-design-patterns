@@ -2,53 +2,23 @@
 <html lang="">
   {% include head.html %}
   <body>
+    <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
+      <div class="container">
+        <img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo" alt="The ODI">
+        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        <nav>
+          <button class="menu">Menu</button>
+          <ul>
+            <li><a href="{{ site.baseurl }}/#what">What is a register?</a></li>
+            <li><a href="{{ site.baseurl }}/#governance">List governance</a></li>
+            <li><a href="{{ site.baseurl }}/#about">About this site</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <main>
-      <header class="navbar {% if site.title and site.title != page.title %}large_banner{% endif %}">
-        <div class="container">
-          <img src="{{ site.url }}{% asset ODI.png @path %}" id="odi-logo" alt="The ODI">
-          <a href="{{ site.baseurl }}/">
-            <span id="page-title">{{ site.title }}</span>
-          </a>
-          <nav>
-            <button class="menu">Menu</button>
-            <ul>
-              <li><a href="{{ site.baseurl }}/list_properties">Talking about lists</a></li>
-              <li><a href="{{ site.baseurl }}/governance_patterns">Register design patterns</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-      <div class="{% if page.category == 'pattern' %}odi-purple{% elsif page.category == 'list-property' %}odi-turquoise{% else %}odi-red{% endif %}">
-        <div class="container grid-md">
-          <div class="row">
-            <div class="col">
-              <h1 class="header">
-                {{page.title}}
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="large_banner_footer">
-        <div class="container grid-md">
-          <h2 class="header ">
-            {% if page.item_name %}
-            <a href="{{ site.baseurl }}/{{page.collection}}">{{ page.item_name }}</a>
-            {% endif %}
-          </h2>
-        </div>
-      </div>
-
-      <div class="container grid-md">
-        <div class="row">
-          <div class="col">
-            {{ content }}
-          </div>
-        </div>
-      </div>
+      {{ content }}
     </main>
 
 

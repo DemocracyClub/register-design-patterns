@@ -1,6 +1,6 @@
 ---
 title: "Direct access"
-layout: post
+layout: base
 short_desc: "Edits are made directly with the option of roll back at a later date."
 category: pattern
 ---

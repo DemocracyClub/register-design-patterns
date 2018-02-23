@@ -1,6 +1,6 @@
 ---
 title: Designing a list people will trust
-layout: default
+layout: base
 category: "1. Introduction"
 ---
 

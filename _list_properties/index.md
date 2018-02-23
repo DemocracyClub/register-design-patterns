@@ -1,7 +1,7 @@
 ---
 permalink: /list_properties/index.html
 title: Properties of lists
-layout: default
+layout: base
 item_name: ''
 category: list-property
 ---

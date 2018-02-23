@@ -1,6 +1,6 @@
 ---
 title: User needs for data
-layout: post
+layout: base
 number: 4
 ---
 

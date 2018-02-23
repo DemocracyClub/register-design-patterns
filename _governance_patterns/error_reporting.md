@@ -1,6 +1,6 @@
 ---
 title: "Error Reporting"
-layout: post
+layout: base
 short_desc: "Anyone can report and error to a person, organisation or through a process."
 category: pattern
 ---

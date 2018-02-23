@@ -1,7 +1,7 @@
 ---
 title: What is a register?
 number: 1
-layout: post
+layout: base
 ---
 
 ## A register is a promise

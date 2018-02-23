@@ -1,7 +1,7 @@
 ---
 title: Follow best practices for data publishing
 number: 11
-layout: post
+layout: base
 ---
 
 

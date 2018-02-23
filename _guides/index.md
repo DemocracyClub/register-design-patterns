@@ -1,6 +1,6 @@
 ---
 title: Designing a list people will trust
-layout: default
+layout: base
 permalink: /guides/index.html
 item_name: ''
 ---

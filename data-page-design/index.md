@@ -1,6 +1,6 @@
 ---
 title: "Designing a data page"
-layout: default
+layout: base
 
 ---
 

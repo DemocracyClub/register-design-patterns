@@ -1,0 +1,10 @@
+.fukol-grid {
+  display: flex; /* 1 */
+  flex-wrap: wrap; /* 2 */
+  margin: 0; /* 5 (edit me!) */
+}
+
+.fukol-grid > * {
+  flex: 1 0 17em; /* 3 (edit me!) */
+  margin: 0; /* 4 (edit me!) */
+}

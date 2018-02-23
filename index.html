@@ -1,0 +1,109 @@
+---
+title: Designing a list people will trust
+layout: base
+---
+
+<section class="hero">
+  <div class="container">
+    <h2>Why transparent custodianship is the key to collaborative registers</h2>
+    <!-- <span class="square"></span> -->
+  </div>
+</section>
+
+<section id="what">
+  <div class="container">
+    <h2>
+      <span class="header-number">1</span>
+      What is a register?
+    </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+</section>
+
+<section id="governance">
+  <div class="container">
+    <h2>
+      <span class="header-number">2</span>
+      How do you get people to trust a list?
+    </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</section>
+
+<section id="governance">
+  <div class="container">
+    <h2>
+      <span class="header-number">3</span>
+      What makes good custodianship?
+    </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="fukol-grid">
+      <div>
+        <span class="icon icon-maintains"></span>
+        <h3>Who maintains the list and why?</h3>
+      </div>
+      <div>
+        <span class="icon icon-adds"></span>
+        <h3>How are things added to the list?</h3>
+      </div>
+      <div>
+        <span class="icon icon-errors"></span>
+        <h3>How are errors in the list corrected</h3>
+      </div>
+      <div>
+        <span class="icon icon-pays"></span>
+        <h3>Who pays for the maintenance of the list?</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="fukol-grid">
+      <div>
+        <h3>What is this website?</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        <h3>Glossary</h3>
+        <ul class="glossary-list">
+          {% for item in site.governance_patterns %}
+          <li>
+            <a href="{{ site.baseurl }}{{ item.url }}">
+              {{ item.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

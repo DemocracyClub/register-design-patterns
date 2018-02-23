@@ -1,6 +1,6 @@
 ---
 title: "Relation to reality"
-layout: post
+layout: base
 short_desc: "By being on the register of children in class 1B, a child becomes a member of class 1B."
 category: list-property
 ---

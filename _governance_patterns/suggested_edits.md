@@ -1,6 +1,6 @@
 ---
 title: "Suggested edits"
-layout: post
+layout: base
 short_desc: "The ability to do the work of making a change and submit it to the governance system"
 category: pattern
 ---

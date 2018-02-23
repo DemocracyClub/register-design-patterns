@@ -1,6 +1,6 @@
 ---
 title: Custodial discretion
-layout: post
+layout: base
 short_desc: "For some lists there is an obvious decision maker who operates
 upon the contents of the list by fiat."
 category: pattern
@@ -27,6 +27,8 @@ It only works for [reality altering][relation-to-reality] lists when the
 custodian is always involved in the change process.
 
 A lot of lists don't have a logical custodian even though they could in theory.
+
+Only works for small lists where someone can reasonably manage it all. Larger lists might not be able to be managed as well as they would be using other governance patterns.
 
 ## Discussion
 

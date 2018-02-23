@@ -1,6 +1,6 @@
 ---
 title: What is governance?
-layout: post
+layout: base
 ---
 
 Governance describes the process of maintaining a list. This includes how

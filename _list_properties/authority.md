@@ -1,6 +1,6 @@
 ---
 title: "Authority"
-layout: post
+layout: base
 short_desc: "How completeness and accuracy can be asserted"
 category: list-property
 ---

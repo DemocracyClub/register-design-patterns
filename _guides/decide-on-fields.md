@@ -1,7 +1,7 @@
 ---
 title: How to decide on fields
 number: 6
-layout: post
+layout: base
 ---
 
 A ‘field’ is sometimes called a ‘value’ and is a piece of information that in a spreadsheet would be held in a cell, or on a web site might appear in an input area on a form.
