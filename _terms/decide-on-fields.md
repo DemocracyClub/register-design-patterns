@@ -41,5 +41,5 @@ Just because you can't promise a fields accuracy doesn't mean you shouldn't incl
 It might be better to split the register in to two at this stage: one that only contains fields you can make a promise about and one with additional fields that contains warnings.
 
 
-[user_needs]: {{ site.baseurl }}{% link _guides/user-needs-for-data.md %}
-[what-is-a-register]: {{ site.baseurl }}{% link _guides/what-is-a-register.md %}
+[user_needs]: {{ site.baseurl }}{% link _terms/user-needs-for-data.md %}
+[what-is-a-register]: {{ site.baseurl }}{% link what-is-a-register.md %}
