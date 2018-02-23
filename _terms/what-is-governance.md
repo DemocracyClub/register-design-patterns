@@ -1,5 +1,5 @@
 ---
-title: What is governance?
+title: Governance
 layout: page
 ---
 
