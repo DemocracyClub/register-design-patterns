@@ -25,9 +25,12 @@ body > header {
   padding-top: 0.4rem;
   text-align:center;
 
+  a, a:visited {
+    color:#FFF;
+  }
+
   a:hover {
-   text-decoration:underline;
-   color:#FFF;
+    text-decoration:underline;
   }
 
   h1 {
