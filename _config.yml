@@ -6,6 +6,8 @@ assets:
     img: { optim: {}}
   source_maps: false
   compression: true
+  cdn:
+    baseurl: true
   caching:
     path: ".jekyll-cache/assets"
     type: file # Possible values: memory, file
