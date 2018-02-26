@@ -3,20 +3,20 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title> | Who is providing the custodianship and why?</title>
+  <title> | Custodial discretion</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta property="og:title" content="Who is providing the custodianship and why?">
+  <meta property="og:title" content="Custodial discretion">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="/register-design-patterns/custodianship/maintainer/">
+  <meta property="og:url" content="/register-design-patterns/terms/custodial-discretion">
   <meta property="og:description" content="">
   <meta property="og:site_name" content="">
   <meta property="og:image" content="/register-design-patterns/assets/og-image-8e75403b7a4d3145675683c5982439d735569485af67e282cf58677e8e0fe863.jpg">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="/register-design-patterns/custodianship/maintainer/">
-  <meta name="twitter:title" content="Who is providing the custodianship and why?">
+  <meta name="twitter:url" content="/register-design-patterns/terms/custodial-discretion">
+  <meta name="twitter:title" content="Custodial discretion">
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="/register-design-patterns/assets/og-image-8e75403b7a4d3145675683c5982439d735569485af67e282cf58677e8e0fe863.jpg">
 
@@ -43,82 +43,32 @@
       <article>
   <header>
     
-    <h1>Who is providing the custodianship and why?</h1>
+    <h1><dfn>Custodial discretion</dfn></h1>
     
   </header>
   <div class="container">
-    <section>
-  <div class="container">
-    <p>
-      We need to understand which individual, group or institution is
-      responsible for making sure the a list remains
-      <a href="/register-design-patterns/terms/accuracy" class="term">
-        accurate</a> and
-      <a href="/register-design-patterns/terms/completeness" class="term">
-        complete</a>.
-    </p>
-    <h3>
-      Institutional Authority
-    </h3>
-    <p>
-      When the authority for the accuracy of a list is
-          <a href="/register-design-patterns/terms/authority" class="term">
-              institutional authority</a> custodians can describe this
-      using language such as:
-    </p>
-    <p class="example">
-      The custodianship of <a href="https://register.register.gov.uk">this
-      register</a> is provided by the Register Design Authority, a team in the
-      <a href="https://gds.blog.gov.uk/about/">Government Digital Service</a>,
-      part of the <a
-      href="https://www.gov.uk/government/organisations/cabinet-office">Cabinet
-       Office</a>. The Register Design Authority decides which registers are
-      entered onto the register register according to the principles and
-      process set out in <a
-      href="https://www.gov.uk/guidance/creating-a-register">these
-      documents</a>.
-    </p>
-    <h3>
-      Legislative Custodianship
-    </h3>
-    <p>
-      When the authority for the accuracy of a list is
-      <a href="/register-design-patterns/terms/authority" class="term">
-          legislative custodianship</a> custodians can describe this
-      using language such as:
-    </p>
-    <p class="example">
-      The custodianship of <a
-      href="https://www.gov.uk/search-property-information-land-registry">this
-      register</a> is provided by <a
-      href="https://www.gov.uk/government/organisations/land-registry">HM Land
-      Registry</a> who are empowered to perform such functions by legislation
-      including the <a href="http://www.legislation.gov.uk/ukpga/1983/2">Land
-      Registration Act 2002</a> and the <a
-      href="http://www.legislation.gov.uk/ukpga/2015/7/contents/enacted">Infras
-      tructure Act 2015</a>.
-    </p>
-    <h3>
-      Trusted Observation
-    </h3>
-    <p>
-      When the authority for the accuracy of a list is
-      <a href="/register-design-patterns/terms/authority" class="term">
-          trusted observation</a> custodians can describe this using
-      language such as:
-    </p>
-    <p class="example">
-      The custodianship of <a
-      href="http://candidates.democracyclub.org.uk/">this list</a> is provided
-      by <a href="https://democracyclub.org.uk/">Democracy Club</a> who have
-      collated and peer-reviewed all 650 Statement of Persons Nominated
-      notices published by local authorities as mandated by the <a
-      href="http://www.legislation.gov.uk/ukpga/1983/2">Representation of the
-      People Act 1983</a>.
-    </p>
-  </div>
-</div>
-
+    <p>For some lists there is an obvious decision maker who operates upon the contents of the list by fiat. This is most commonly due to having either legislative custodianship or institutional authority.</p>
+<p>For instance, when Google decide to no longer support the Mosaic web browser and remove it from their list of supported web browsers, this decision is taken by a person or group who have been given executive power over it. This will result in Mosaic being removed from the list of supported web browsers.</p>
+<p>If one happens not to be the custodian the ability to affect change in the list is dramatically reduced.</p>
+<p>In some cases there may be a clear mechanism to <a href="/register-design-patterns/terms/error-reporting">provide feedback</a> which provides some opportunity to <a href="/register-design-patterns/terms/suggested-edits">request additions or corrections</a>, but this is not always the case.</p>
+<p>It’s possible for registers which operate a custodial discretion model operate on a whim, or make decisions in a smoke filled room with minimal transparency over the precise process.</p>
+<p>Despite this a custodian with proper authority provides much more ability to <a href="/register-design-patterns/what-is-a-register/">make a promise</a> about the list.</p>
+<p>A list made without a logical custodian needs other patterns of governance to be done well.</p>
+<h2 id="strengths">Strengths</h2>
+<p>A custodial allows for clear lines of responsibility over changes to a list. If a person has an official responsibility for maintaining a list then there is less chance of a data version of the <a href="https://en.wikipedia.org/wiki/Bystander_effect">“bystander effect”</a> happening.</p>
+<h2 id="weaknesses">Weaknesses</h2>
+<p>While errors can be fixed by the right person within the organisation that created the list, finding that person is often hard and formal <a href="/register-design-patterns/terms/error-reporting">error reporting</a> mechanisms may not exist.</p>
+<p>This model is poorly suited to <a href="/register-design-patterns/terms/relation-to-reality">reality describing</a> lists because there is no logical custodian for things that describe the world.</p>
+<p>It only works for <a href="/register-design-patterns/terms/relation-to-reality">reality altering</a> lists when the custodian is always involved in the change process.</p>
+<p>A lot of lists don’t have a logical custodian even though they could in theory.</p>
+<p>Only works for small lists where someone can reasonably manage it all. Larger lists might not be able to be managed as well as they would be using other governance patterns.</p>
+<h3 id="examples">Examples</h3>
+<ul>
+<li>A level English literature set texts</li>
+<li>Directors of a company</li>
+<li>Microsoft supported browsers</li>
+<li><a href="https://country.register.gov.uk">FCO list of countries recognised by the UK</a></li>
+</ul>
   </div>
 </article>
 
@@ -217,7 +167,7 @@
       <div class="container  grid-md">
         <p><a href="https://theodi.org/"><img src="/register-design-patterns/assets/ODI-dc7f09323fca3ce8fd99a755509f27d36e4963c9cfc2dcb85cd9f850ca5f4281.png" id="odi-logo" alt="The ODI"></a></p>
 
-        <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/custodianship/maintainer/index.html">
+        <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/_terms/custodial-discretion.md">
             Edit this page on GitHub</a>.</p>
         <p>
           <a href="http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB" rel="license">
